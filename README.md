@@ -2,6 +2,7 @@
 ## Description
 Suppose n people lined up waiting for consultations. Person i needs q<sub>i</sub> minutes for their consultation, where q<sub>i</sub> is a positive integer. There are t available rooms and each room can be used for a maximum of L minutes. The goal is to assign the people to the rooms so that the first n<sub>1</sub> go to room 1,the next n<sub>2</sub> go to room 2, ..., the last n<sub>t</sub> go to room t.
 During the pandemic, to minimize contact, gaps between successive people using the same room should be maximized. The algorithm written with dynamic programming finds the room assignment (ie. n<sub>1</sub>, n<sub>2</sub>, ..., n<sub>t</sub>) to maximize the minimum gap between any two people.
+
 ![alt text](https://github.com/ellensong99/DP-RoomAssignmentCovid-MaxGap/blob/main/image.jpeg?raw=true)
  
 ## Usage
